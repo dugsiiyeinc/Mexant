@@ -243,6 +243,53 @@ ul li ul.drop-down li{
     transition: all 0.3s;
   }
 
+  /* Section two */
+
+
+  .boxs {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin:10px;
+  
+   
+  }
+  
+  
+  .box1 {
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+   
+    display: flex;
+  
+    gap: 15px;
+  }
+  .box1 span {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .box1 .fas {
+    color: rgb(67, 186, 127);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 64px;
+    text-align: start;
+  }
+  
+  .contact-card .fa{
+    color: rgb(67, 186, 127);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 64px;
+    text-align: start;
+  }
+  
+
 
   .mobile-menu{
     display: none;
@@ -482,4 +529,49 @@ ul li ul.drop-down li{
 
 
   /*  section two */
+
+  
+.boxs {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin:10px;
+  
+   
+  }
+  
+  
+  .box1 {
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+   
+    display: flex;
+  
+    gap: 15px;
+  }
+  .box1 span {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .box1 .fas {
+    color: rgb(67, 186, 127);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 64px;
+    text-align: start;
+  }
+  
+  .contact-card .fa{
+    color: rgb(67, 186, 127);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 64px;
+    text-align: start;
+  }
+  
 }
