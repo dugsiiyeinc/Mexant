@@ -288,6 +288,74 @@ ul li ul.drop-down li{
     line-height: 64px;
     text-align: start;
   }
+
+
+  
+/* SECTION 3 */
+.poster {
+    background: url("https://templatemo.com/templates/templatemo_574_mexant/assets/images/cta-bg.jpg")
+      center/cover no-repeat;
+    width: 100%;
+    padding-top: 50px;
+   margin-top: 300px;
+    margin-bottom: 30px;
+    height: 270px;
+    margin: 0 auto;
+    width: 99%;
+  }
+  .wrap {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .wrap h4 em {
+    
+    color: #42ba7f;
+    font-style: normal;
+  
+  }
+  .wrap h4 strong {
+    color: #ff5119;
+    font-style: normal;
+  
+  }
+  .btn {
+  
+    max-width: 100%;
+    max-height: 60px;
+    display: flex;
+    gap: 15px;
+    box-sizing: border-box !important;
+   
+  }
+  
+  .green-button {
+  
+    color: #fff;
+    background-color: #43ba7f;
+    padding: 8px 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: capitalize;
+  }
+  .orange-button {
+    font-size: 14px;
+    color: #fff;
+    background-color: #ff511a;
+    padding: 8px 20px; 
+    border-radius: 5px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all 0.3s;
+  }
   
 
 
@@ -572,6 +640,73 @@ ul li ul.drop-down li{
     font-weight: 900;
     line-height: 64px;
     text-align: start;
+  }
+
+  
+/* SECTION 3 */
+.poster {
+    background: url("https://templatemo.com/templates/templatemo_574_mexant/assets/images/cta-bg.jpg")
+      center/cover no-repeat;
+    width: 100%;
+    padding-top: 50px;
+   margin-top: 300px;
+    margin-bottom: 30px;
+    height: 270px;
+    margin: 0 auto;
+    width: 99%;
+  }
+  .wrap {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .wrap h4 em {
+    
+    color: #42ba7f;
+    font-style: normal;
+  
+  }
+  .wrap h4 strong {
+    color: #ff5119;
+    font-style: normal;
+  
+  }
+  .btn {
+  
+    max-width: 100%;
+    max-height: 60px;
+    display: flex;
+    gap: 15px;
+    box-sizing: border-box !important;
+   
+  }
+  
+  .green-button {
+  
+    color: #fff;
+    background-color: #43ba7f;
+    padding: 8px 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: capitalize;
+  }
+  .orange-button {
+    font-size: 14px;
+    color: #fff;
+    background-color: #ff511a;
+    padding: 8px 20px; 
+    border-radius: 5px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all 0.3s;
   }
   
 }
