@@ -743,7 +743,61 @@ ul li ul.drop-down li{
 
 
 /* SERVICES PAGE */
+.main_service{
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  /* margin-block: -2rem; */
+  /* padding-block: -2rem; */
+}
+.pic_1 img{
+  width: 33.1875rem;
+  height: 19.666875rem;
+  border-radius: 0.625rem;
 
+}
+.t_p-1{
+  width: 33.1875rem;
+  height: 19.666875rem;
+}
+.cont_1 .fa-archive{
+    font-size: 64px;
+    color: #43ba7f;
+    background-color: #ecf8f2;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    display: inline-block;
+    line-height: 120px;
+    border-radius: 5px;
+    margin-top: 8rem;
+}
+.cont_1{
+  display: flex;
+  flex-direction: column;
+  /* gap: 0.5rem; */
+  align-items: self-start;
+  justify-content: center;
+}
+.t_p-1 h4{
+  /* margin-bottom: 2rem; */
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #212741;
+  margin-top: 2rem;
+  margin-bottom: 1.875rem;
+}
+
+.t_p-1 p{
+  font-size: 0.9375rem;
+  line-height: 1.625rem;
+  color: #212741;
+}
+.main_service2{
+  margin-top: -5rem;
+}
   
   /* For mobile view */
 @media only screen and  (max-width: 640px) {
