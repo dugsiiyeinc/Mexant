@@ -700,6 +700,38 @@ ul li ul.drop-down li{
     color: white;
   
   }
+
+
+  
+.last-sec{
+  width: 100%;
+  height: 250px;
+  background-color: #212741;
+
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 99%;
+}
+
+.boxes-group1{
+   display: flex;
+}
+.boxes-group2{
+  display: flex;
+}
+
+
+
+ .image-boxes{
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: 100%;
+  gap: 40px;
+}
   
 
 
@@ -1641,6 +1673,45 @@ footer {
      color: white;
      text-align: center;
    }
+
+
+
+   
+.last-sec{
+  width: 100%;
+  height: 250px;
+  background-color: #212741;
+
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+ 
+}
+
+
+
+ .image-boxes{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+  height: 250px;
+  width: 100%;
+  gap: 20px;
+}
+
+.boxes-group1{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.boxes-group2{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
 
 /* SERVICE_PAGE RESPONSIVE */
 
