@@ -954,6 +954,34 @@ button:hover {
   padding-top: 30px;
   margin-bottom: 20px;
 }
+
+.last-sec {
+  width: 100%;
+  height: 250px;
+  background-color: #212741;
+
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 99%;
+}
+
+.boxes-group1 {
+  display: flex;
+}
+.boxes-group2 {
+  display: flex;
+}
+
+.image-boxes {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: 100%;
+  gap: 40px;
+}
 /* SERVICES PAGE */
 .main_service {
   display: flex;
