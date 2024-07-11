@@ -2603,6 +2603,44 @@ select {
  }
 
 
+ 
+.last-sec{
+  width: 100%;
+  height: 250px;
+  background-color: #212741;
+
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+ 
+}
+
+
+
+ .image-boxes{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+  height: 250px;
+  width: 100%;
+  gap: 20px;
+}
+
+.boxes-group1{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.boxes-group2{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+
 
 /* SERVICES PAGE */
 .main_service{
