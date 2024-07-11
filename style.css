@@ -801,6 +801,119 @@ ul li ul.drop-down li{
 .main_service2{
   margin-top: -5rem;
 }
+
+.section_investment{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-block: 6rem;
+  align-items: center;
+  justify-content: center;
+}
+.title_investment{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  
+}
+.title_investment h6{
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #ff511a;
+  font-weight: 700;
+}
+
+.title_investment h4{
+  margin-top: 0.625rem;
+  line-height: 40px;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #212741;
+}
+.title_2{
+  display: flex;
+  flex-direction: row;
+  gap: 1;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+
+}
+.invest-card{
+  padding: 15px 30px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px !important;
+  margin-right: 30px;
+  font-size: 18px;
+  color: #212741;
+  background-color: #fff;
+  cursor: pointer;
+  vertical-align: middle;
+  font-weight: 600;
+  transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+.invest-card span:hover{
+  color: #ed563b;
+}
+.investment_content{
+  display: flex;
+  flex-direction: row;
+  align-items: self-start;
+  gap: 3rem;
+  width: 57.875rem;
+  height: 29.40625rem;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  padding-block: 2.5rem;
+
+}
+.conten-image img{
+  width: 25rem;
+  height: 23.75rem;
+}
+.heard-conten{
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  height: 23.75rem;
+
+}
+.heard-conten h4{
+  font-size: 1.5rem;
+  color: #212741;
+  margin-bottom: 1.5625rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  margin-right: 7.5rem;
+}
+.heard-conte p{
+  font-size: 0.9375rem;
+  line-height: 1.626rem;
+  color: #212741;
+}
+.heard-conten span{
+  display: block;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: #212741;
+  font-style: italic;
+  margin-bottom: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+
+
+
+
+
+
+
+
   
   /* For mobile view */
 @media only screen and  (max-width: 640px) {
