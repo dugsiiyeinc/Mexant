@@ -1233,7 +1233,7 @@ footer {
     color: white;
     width: 50px;
     height: 50px;
-    right: 2%;
+    right: 5%;
     border-radius: 50%;
     font-size: 2rem;
   }
@@ -1252,7 +1252,9 @@ footer {
 
   .menu-link {
     position: relative;
-
+    top: 0px;
+    margin: 0px;
+    padding-top: 30px;
     width: 100%;
     height: 200vh;
 
@@ -1280,7 +1282,8 @@ footer {
 
     font-weight: bold;
     width: 100%;
-    background-color: aliceblue;
+    border-bottom: 1px solid rgb(121, 120, 120);
+    background-color: #fff;
   }
 
   .menu ul li a {
@@ -1288,6 +1291,25 @@ footer {
     color: black;
 
     font-size: 1rem;
+  }
+  .menu ul li:last-child{
+    display: none;
+  }
+  .btn a:last-child {
+    display: none;
+  
+    /* font-size: 14px;
+    color: #fff;
+    background-color: #43ba7f;
+    padding: 30px 20px !important;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 500;
+    text-transform: capitalize;
+    height: auto;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    transition: all 0.3s; */
   }
 
   .Hero {
