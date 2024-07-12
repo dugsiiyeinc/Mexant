@@ -85,9 +85,9 @@ header {
   font-style: normal;
 }
 
-.hamburger {
+/* .hamburger {
   display: none;
-}
+} */
 .btn a {
   font-size: 14px;
   color: #fff;
@@ -1202,17 +1202,18 @@ footer {
 
     transform: translateX(0%);
   }
-  .menu-link[data-visible="false"] {
+  .menu-link[data-visible="true"] {
     display: none;
-  }
+}
 
-  .hamburger i[data-visible="true"]{
+.hamburger i[data-visible="true"]{
     display: block;
 }
 
 .hamburger i[data-visible="false"]{
     display: none;
 }
+
   .logo-section {
     /*    
       width: 99%;
@@ -2321,16 +2322,17 @@ footer {
 
     transform: translateX(0%);
   }
-  .menu-link[data-visible="false"] {
-    display: none;
+
+.menu-link[data-visible="true"] {
+  display: none;
 }
 
 .hamburger i[data-visible="true"]{
-    display: block;
+  display: block;
 }
 
 .hamburger i[data-visible="false"]{
-    display: none;
+  display: none;
 }
 
   .logo-section {
