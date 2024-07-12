@@ -834,10 +834,10 @@ button:hover {
 }
 /* Section one about */
 .sectio-one {
-  width: 99%;
+  width: 100%;
   margin: 0 auto;
-  height: 90vh;
-  margin-bottom: 150px;
+  height: 100vh;
+  margin-bottom: 290px;
 }
 .picture-sec2 {
   background: url("https://templatemo.com/templates/templatemo_574_mexant/assets/images/about-left-image.jpg");
@@ -2139,6 +2139,70 @@ footer {
     font-style: italic;
     margin-bottom: 0.75rem;
     margin-top: 0.75rem;
+  }
+  /* about page sectio-one */
+  .sectio-one {
+    width: 99%;
+    margin: 0 auto;
+    height: 100vh;
+    margin-bottom: 290px;
+  }
+
+  .sec2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .picture-sec2 {
+    background: url("https://templatemo.com/templates/templatemo_574_mexant/assets/images/about-left-image.jpg");
+    width: 80%;
+    margin: 0 auto;
+    height: 32.625rem;
+    border-radius: 10px;
+  }
+  .cont-n {
+    width: 80%;
+    margin: 0 auto;
+    height: 32.625rem;
+    border-radius: 10px;
+    border-radius: 5px;
+    padding: 50px 40px;
+    background-color: #fff;
+
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  .cont-paragraphs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .cont-paragraphs p,
+  .span1 {
+    display: none;
+  }
+  .cont-n h2 {
+    position: sticky;
+    color: #000000;
+  }
+
+  .sec2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    margin: 5rem 0;
+  }
+
+  .btn-about {
+    display: flex;
+    gap: 15px;
+  }
+
+  .btn-about .g-btn {
+    height: 50px;
+  }
+  .btn-about .o-btn {
+    height: 50px;
   }
 }
 
