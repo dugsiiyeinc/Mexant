@@ -21,7 +21,10 @@
   <body>
     <header>
         <!-- Humburger -->
-      
+        <div class="hamburger">
+          <i class="fa-solid fa-bars " data-visible="true"></i>
+          <i class="fa-solid fa-close" data-visible="false"></i>
+        </div>
   
         <!-- desktop menu -->
         <nav class="container desktop-menu">
@@ -56,16 +59,11 @@
   
   
         <div class="container mobile-menu">
-          <!-- left menu logo-->
-  
         <div class="logo">
           <img class="logo" src="https://templatemo.com/templates/templatemo_574_mexant/assets/images/logo.png" alt="logo" />
         </div>
   
-            <div class="hamburger">
-              <i class="fa-solid fa-bars" data-visible="true"></i>
-              <i class="fa-solid fa-close" data-visible="false"></i>
-            </div>
+          
           <!-- right menu -->
           <div class="menu-link" data-visible="false">
             <div class="menu">
@@ -336,6 +334,7 @@
           <i class="fa fa-quote-left"></i>
         </div>
         <div class="picture">
+          
           <img src="https://templatemo.com/templates/templatemo_574_mexant/assets/images/testimonials-01.jpg" alt="">
         </div>
           
@@ -350,11 +349,7 @@
           <h4 style="color: green;">Ceo of Mexant</h4>
         </div>
        
-      </div>
-        
-
-        
-        
+      </div>   
         </div>
   </section>
 
@@ -401,7 +396,7 @@
     const icons = document.querySelectorAll("i");
     console.log('hamburger',hamburger);
     hamburger.addEventListener("click", function (event) {
-console.log('event : ',event)
+console.log('event :',event)
         const isVisible = mobileMenu.getAttribute('data-visible');
         
         if (isVisible == "true") {
