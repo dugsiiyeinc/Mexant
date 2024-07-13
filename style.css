@@ -1202,6 +1202,7 @@ footer {
     background-color: #212741;
     transform: translateX(0%);
   }
+ 
   .menu-link[data-visible="false"] {
     display: none;
 }
@@ -2326,11 +2327,11 @@ footer {
   display: none;
 }
 
-.hamburger fa-solid[data-visible="true"]{
+.hamburger i[data-visible="true"]{
   display: block;
 }
 
-.hamburger fa-solid[data-visible="false"]{
+.hamburger i[data-visible="false"]{
   display: none;
 }
 
