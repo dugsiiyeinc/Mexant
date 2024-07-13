@@ -17,10 +17,12 @@
   </head>
   <body>
 
-    
     <header>
       <!-- Humburger -->
-    
+      <div class="hamburger">
+        <i class="fa-solid fa-bars " data-visible="true"></i>
+        <i class="fa-solid fa-close" data-visible="false"></i>
+      </div>
 
       <!-- desktop menu -->
       <nav class="container desktop-menu">
@@ -29,7 +31,7 @@
         <!-- right menu -->
         <ul class="menus-link">
           <li>
-            <a href="index.html" class="active">Home</a>
+            <a href="#" class="active">Home</a>
           </li>
           <li>
             <a href="#Services" >Services</a>
@@ -54,16 +56,12 @@
       </nav>
 
 
-      <nav class="container mobile-menu">
-        <!-- left menu logo-->
-
+      <div class="container mobile-menu">
       <div class="logo">
         <img class="logo" src="https://templatemo.com/templates/templatemo_574_mexant/assets/images/logo.png" alt="logo" />
       </div>
-<div class="hamburger">
-                <i class="fa-solid fa-bars" data-visible="true"></i>
-                <i class="fa-solid fa-close" data-visible="false"></i>
-            </div>
+
+        
         <!-- right menu -->
         <div class="menu-link" data-visible="false">
           <div class="menu">
@@ -91,9 +89,10 @@
           </li>
           <li class="btn"><a href="#">Contact Support</a></li>
         </ul>
-      </nav>
+     
     </div>
     </div>
+  </div>
     </header>
 
     
@@ -199,3 +198,29 @@
         
 </body>
 </html>
+
+<script>
+  const hamburger = document.querySelector(".hamburger");
+  const mobileMenu = document.querySelector(".menu-link");
+  const icons = document.querySelectorAll("i");
+  console.log('hamburger',hamburger);
+  hamburger.addEventListener("click", function (event) {
+console.log('event :',event)
+      const isVisible = mobileMenu.getAttribute('data-visible');
+      
+      if (isVisible == "true") {
+
+          // qari hiding
+          mobileMenu.setAttribute('data-visible', "false");
+          icons[0].setAttribute('data-visible', "true");
+          icons[1].setAttribute('data-visible', "false");
+      } else {
+          // soo bandhig showing
+          mobileMenu.setAttribute('data-visible', "true");
+          icons[0].setAttribute('data-visible', "false");
+          icons[1].setAttribute('data-visible', "true");
+      }
+  });
+
+
+</script>
