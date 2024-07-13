@@ -1262,39 +1262,44 @@ footer {
     position: relative;
     top: -30px;
     margin: 0px;
-    padding-top: 30px;
     width: 100%;
     height: 200vh;
-
     display: flex;
     flex-direction: column;
     gap: 0.625rem;
     align-items: center;
     justify-content: center;
-
     background-color: #ffffff;
-    padding-bottom: 1.875rem;
   }
 
   .menu ul {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.25rem;
+    /* gap: 1rem; */
   }
 
   .menu ul li {
     list-style-type: none;
-    padding: 0.9375rem 6.25rem;
+    padding: 0.5375rem 8.5rem;
 
     font-weight: bold;
     width: 100%;
-    border-bottom: 1px solid rgb(191, 191, 191);
+    border: 1px solid rgb(231, 231, 231);
     background-color: #fff;
+    text-align: center;
   }
 
-  
+  .menu ul li:hover{
+    background-color: #f4f4f4;
+    color: #e64a19 !important;
+  }
+  .menu li a:hover{
+    color: #e64a19;
+   
+  }
   .menu ul li a {
     text-decoration: none;
     color: rgb(90, 90, 90);
@@ -1307,19 +1312,9 @@ footer {
   }
   .btn a:last-child {
     display: none;
-  
-    /* font-size: 14px;
-    color: #fff;
-    background-color: #43ba7f;
-    padding: 30px 20px !important;
-    display: inline-block;
-    border-radius: 5px;
-    font-weight: 500;
-    text-transform: capitalize;
-    height: auto;
-    line-height: 15px;
-    letter-spacing: 0.5px;
-    transition: all 0.3s; */
+  }
+  ul li:hover ul.drop-down {
+    display: none;
   }
 
   .Hero {
@@ -2391,8 +2386,9 @@ footer {
     position: relative;
     top: -30px;
     margin: 0px;
-    padding-top: 30px;
-    width: 100%;
+    /* padding-top: 30px; */
+    width: 82%;
+    margin: 0 auto;
     height: 200vh;
 
     display: flex;
@@ -2402,24 +2398,35 @@ footer {
     justify-content: center;
 
     background-color: #ffffff;
-    padding-bottom: 1.875rem;
+    /* padding-bottom: 1.875rem; */
   }
   .menu ul {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.25rem;
+    /* gap: 1rem; */
   }
 
   .menu ul li {
     list-style-type: none;
-    padding: 0.9375rem 6.25rem;
+    padding: 0.5375rem 15.5rem;
 
     font-weight: bold;
     width: 100%;
-    border-bottom: 1px solid rgb(191, 191, 191);
+    border: 1px solid rgb(231, 231, 231);
     background-color: #fff;
+    text-align: center;
+  }
+
+  .menu ul li:hover{
+    background-color: #f4f4f4;
+    color: #e64a19 !important;
+  }
+  .menu li a:hover{
+    color: #e64a19;
+   
   }
 
   .menu ul li a {
@@ -2437,6 +2444,17 @@ footer {
   .btn a:last-child {
     display: none;
   }
+  ul li:hover ul.drop-down {
+    display: none;
+  }
+
+
+
+
+
+
+
+
   /* home page */
 
   .Hero {
