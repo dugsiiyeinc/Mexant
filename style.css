@@ -85,9 +85,6 @@ header {
   font-style: normal;
 }
 
-/* .hamburger {
-  display: none;
-} */
 .btn a {
   font-size: 14px;
   color: #fff;
@@ -803,11 +800,6 @@ button:hover {
   display: none;
 }
 
-
-.hamburger {
-  display: none;
-}
-
 /* .hamburger i {
   display: none;
 } */
@@ -1213,7 +1205,7 @@ footer {
   }
 
   .menu-link[data-visible="false"] {
-    transform: translateX(110%);
+    display: none;
 }
 
 .hamburger i[data-visible="true"]{
@@ -1223,18 +1215,6 @@ footer {
 .hamburger i[data-visible="false"]{
     display: none;
 }
- 
-  /* .menu-link[data-visible="false"] {
-    display: none;
-}
-
-.hamburger i[data-visible="true"]{
-    display: flex;
-}
-
-.hamburger i[data-visible="false"]{
-    display: none;
-} */
 
   .logo-section {
     /*    
@@ -1307,15 +1287,16 @@ footer {
 
     font-weight: bold;
     width: 100%;
-    border-bottom: 1px solid rgb(121, 120, 120);
+    border-bottom: 1px solid rgb(191, 191, 191);
     background-color: #fff;
   }
 
+  
   .menu ul li a {
     text-decoration: none;
-    color: black;
-
-    font-size: 1rem;
+    color: rgb(90, 90, 90);
+   font-weight: 400;
+    font-size: 14px;
   }
   .menu ul li:last-child{
     display: none;
@@ -2350,7 +2331,7 @@ footer {
   }
 
   .menu-link[data-visible="false"] {
-    transform: translateY(100%);
+    display: none;
    
 }
 
@@ -2381,13 +2362,11 @@ footer {
     color: white;
     width: 50px;
     height: 50px;
-    right: 2%;
+    right: 5%;
     border-radius: 50%;
     font-size: 2rem;
-
-
-
-    
+    top: 15px;
+    z-index: 10;
   }
 
   .logo {
@@ -2402,20 +2381,20 @@ footer {
     max-height: 100%;
   }
 
-
-
   .menu-link {
+    position: relative;
+    top: -30px;
+    margin: 0px;
+    padding-top: 30px;
+    width: 100%;
+    height: 200vh;
+
     display: flex;
     flex-direction: column;
     gap: 0.625rem;
     align-items: center;
     justify-content: center;
-    position: relative;
-    top: 0px;
-    margin: 0px;
-    padding-top: 30px;
-    width: 100%;
-    height: 200vh;
+
     background-color: #ffffff;
     padding-bottom: 1.875rem;
   }
@@ -2433,15 +2412,15 @@ footer {
 
     font-weight: bold;
     width: 100%;
-    border-bottom: 1px solid rgb(121, 120, 120);
+    border-bottom: 1px solid rgb(191, 191, 191);
     background-color: #fff;
   }
 
   .menu ul li a {
     text-decoration: none;
-    color: black;
-
-    font-size: 1rem;
+    color: rgb(90, 90, 90);
+   font-weight: 400;
+    font-size: 14px;
   }
 
 
