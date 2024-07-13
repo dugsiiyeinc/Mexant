@@ -580,16 +580,19 @@ select {
   gap: 30px;
   justify-content: center;
   align-items: left;
+  
 }
 
 .qmark {
   background-color: #42ba7f;
-  width: 15%;
-  height: 100px;
-  font-size: 50px;
+  width: 8%;
+  height: 70px;
+  font-size: 45px;
   color: #fff;
   text-align: center;
   border-radius: 8px;
+  margin-left: 40px;
+  margin-top: 40px;
 }
 
 .test-section {
@@ -800,9 +803,9 @@ button:hover {
   display: none;
 }
 
-/* .hamburger i {
+.hamburger i {
   display: none;
-} */
+}
 
 /* ABOUT PAGE */
 
@@ -1805,6 +1808,8 @@ footer {
     font-size: 14px;
     padding-right: 0px;
     margin-right: 0;
+    
+    text-align: left;
   }
 
   .picture {
