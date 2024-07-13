@@ -1300,6 +1300,7 @@ footer {
     color: rgb(90, 90, 90);
    font-weight: 400;
     font-size: 12px;
+    text-align: center;
   }
   .menu ul li:last-child{
     display: none;
@@ -2426,6 +2427,7 @@ footer {
     color: rgb(90, 90, 90);
    font-weight: 400;
     font-size: 14px;
+    text-align: center;
   }
 
 
