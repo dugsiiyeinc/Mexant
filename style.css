@@ -3260,7 +3260,7 @@ footer {
   .investment_content {
     position: relative;
     width: 90%;
-    height: 165vh;
+    height: 80vh;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
