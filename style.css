@@ -1493,6 +1493,7 @@ footer {
 
   /* SECTION 4 */
 
+
   .about-us {
     margin-top: 50px;
     height: 80vh;
@@ -1805,7 +1806,7 @@ footer {
   }
 
   .last-sec {
-    width: 100%;
+    width: 99%;
     height: 250px;
     background-color: #212741;
 
@@ -2160,10 +2161,15 @@ footer {
     margin-top: 0.75rem;
   }
   /* about page sectio-one */
+
+  .about-hero {
+    height: 60vh;
+  }
+
   .sectio-one {
     width: 99%;
     margin: 0 auto;
-    height: 120vh;
+    height: 118vh;
     margin-bottom: 500px;
   }
 
