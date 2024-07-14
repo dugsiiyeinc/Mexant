@@ -1218,7 +1218,7 @@ footer {
   }
 
   .hamburger {
-  
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2163,13 +2163,14 @@ footer {
   .sectio-one {
     width: 99%;
     margin: 0 auto;
-    height: 100vh;
-    margin-bottom: 290px;
+    height: 120vh;
+    margin-bottom: 500px;
   }
 
   .sec2 {
     display: flex;
     flex-direction: column;
+  
   }
   .picture-sec2 {
     background: url("https://templatemo.com/templates/templatemo_574_mexant/assets/images/about-left-image.jpg");
@@ -2181,13 +2182,14 @@ footer {
   .cont-n {
     width: 80%;
     margin: 0 auto;
-    height: 32.625rem;
+    height: 100%;
     border-radius: 10px;
     border-radius: 5px;
     padding: 50px 40px;
     background-color: #fff;
 
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    
   }
   .cont-paragraphs {
     display: flex;
@@ -2212,7 +2214,7 @@ footer {
     margin: 5rem 0;
   }
 
-  .btn-about {
+  /* .btn-about {
     display: flex;
     gap: 15px;
   }
@@ -2222,6 +2224,10 @@ footer {
   }
   .btn-about .o-btn {
     height: 50px;
+  } */
+
+  .poster-about{
+    height: 50vh;
   }
   .two-grid-section {
     width: 80%;
