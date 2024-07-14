@@ -3367,8 +3367,9 @@ footer {
 
   .contact-form {
     margin-top: 500px;
-    height: 100vh;
-    margin-bottom: 150px;
+    height: 70vh;
+   
+    
   }
 
   .feel-free {
@@ -3458,6 +3459,8 @@ footer {
   button:hover {
     background-color: #e64a19;
   }
+
+  
 
 
 }
