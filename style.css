@@ -1424,6 +1424,7 @@ footer {
   }
 
   .contact-card .fa {
+    
     color: rgb(67, 186, 127);
     font-size: 64px;
     font-style: normal;
@@ -1853,8 +1854,8 @@ footer {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 50px;
-    left: 5%;
     justify-content: center;
     margin-top: 80px;
     margin-bottom: 300px;
@@ -3319,12 +3320,12 @@ footer {
   }
 
   .contact-info {
+    align-items: center;
     margin-top: 200px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 50px;
-    left: 5%;
     justify-content: center;
     margin-top: 80px;
     margin-bottom: 300px;
