@@ -1462,13 +1462,8 @@ footer {
     display: flex;
     gap: 15px;
     box-sizing: border-box !important;
-<<<<<<< Updated upstream
   }
 
-=======
-  } */
-  /* 
->>>>>>> Stashed changes
   .green-button {
     color: #fff;
     background-color: #43ba7f;
@@ -1721,11 +1716,6 @@ footer {
     text-align: center;
     margin: 0 auto;
     width: 80%;
-<<<<<<< Updated upstream
-=======
-    height: 100vh;
-
->>>>>>> Stashed changes
     height: 80vh;
   }
 
@@ -2989,16 +2979,14 @@ footer {
     flex-direction: column;
   }
   .picture-sec2 {
-    background: url("https://templatemo.com/templates/templatemo_574_mexant/assets/images/about-left-image.jpg")
-      center/cover no-repeat;
-    width: 90%;
+    background: url("https://templatemo.com/templates/templatemo_574_mexant/assets/images/about-left-image.jpg");
+    width: 100%;
     margin: 0 auto;
     height: 32.625rem;
     border-radius: 10px;
   }
-
   .cont-n {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     height: 32.625rem;
     border-radius: 10px;
@@ -3014,11 +3002,15 @@ footer {
     gap: 30px;
   }
 
+  /* .cont-paragraphs,
+  span { */
+  /* display: none; */
+  /* color: #42ba7f; */
+  /* } */
   .cont-n h2 {
     position: sticky;
     color: #000000;
     color: #42ba7f;
-    font-size: 22px;
   }
 
   .sec2 {
@@ -3032,7 +3024,6 @@ footer {
   .btn-about {
     display: flex;
     gap: 15px;
-    margin-top: 1px;
   }
 
   .btn-about .g-btn {
@@ -3047,7 +3038,7 @@ footer {
     height: 520px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 870px;
+    margin-bottom: 950px;
   }
 
   .two-grid-section {
@@ -3060,7 +3051,7 @@ footer {
   .grid-section1 {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
     align-items: self-start;
     padding: 20px;
     width: 100%;
@@ -3071,8 +3062,6 @@ footer {
   }
   .grid-section1 h4 {
     padding-right: 120px;
-    font-size: 22px;
-    margin-top: 6.879rem;
   }
   .grid-section1 p {
     padding-right: 10px;
