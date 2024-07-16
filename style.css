@@ -2133,13 +2133,14 @@ footer {
 
   .about-hero {
     height: 60vh;
+   
   }
 
   .sectio-one {
     width: 99%;
     margin: 0 auto;
     height: 118vh;
-    margin-bottom: 200px;
+    margin-bottom: 400px;
   }
 
   .sec2 {
