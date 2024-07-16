@@ -1063,7 +1063,7 @@ button:hover {
 .title_2 {
   display: flex;
   flex-direction: row;
-  gap: 1;
+  gap: 1rem;
   align-items: center;
   justify-content: center;
   margin-top: 3rem;
@@ -2044,7 +2044,8 @@ footer {
   }
 
   .section_investment {
-    width: 90%;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -2076,6 +2077,7 @@ footer {
     text-align: center;
   }
   .title_2 {
+    padding-left: 5%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -2085,26 +2087,26 @@ footer {
   }
   .invest-card {
     padding: 15px 30px;
-    display: inline-block;
+    /* display: inline-block; */
     text-align: center;
     border-radius: 5px !important;
-    margin-right: 30px;
-    font-size: 18px;
+    /* margin-right: 30px; */
+    font-size: 1rem;
     color: #212741;
     background-color: #fff;
     cursor: pointer;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     font-weight: 600;
     transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   }
-  .invest-card span:hover {
+  .invest-card p:hover {
     color: #ed563b;
   }
   .investment_content {
     position: relative;
     width: 90%;
-    height: 165vh;
+    height: 130vh;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -2135,15 +2137,15 @@ footer {
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
-    height: 23.75rem;
+    height: 100%;
   }
   .heard-conten h4 {
     font-size: 1.5rem;
-    color: #212741;
+    color: #313546;
     margin-bottom: 1.5625rem;
     font-weight: 700;
     line-height: 2.5rem;
-    margin-right: 7.5rem;
+    margin-right: 3rem;
   }
   .heard-conte p {
     font-size: 0.9375rem;
@@ -3220,7 +3222,7 @@ footer {
     text-align: center;
   }
   .title_2 {
-    padding-left: 5%;
+    /* padding-left: 5%; */
     display: flex;
     flex-direction: row;
     gap: 20px;
