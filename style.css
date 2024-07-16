@@ -2006,13 +2006,21 @@ footer {
     display: inline-block;
     line-height: 120px;
     border-radius: 5px;
-    margin-top: 8rem;
+    /* margin-top: 8rem; */
   }
+
+  .cont_1 .icon{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  
+
   .cont_1 {
     display: flex;
     flex-direction: column;
     /* gap: 0.5rem; */
-    align-items: center;
+    align-items: self-start;
     justify-content: center;
   }
   .t_p-1 h4 {
@@ -2030,8 +2038,9 @@ footer {
     color: #212741;
   }
   .main_service2 {
-    margin-top: -5rem;
-    margin: 0 auto;
+    /* margin-top: -5rem; */
+    margin-bottom: 7rem;
+    /* margin: 0 auto; */
   }
 
   .section_investment {
