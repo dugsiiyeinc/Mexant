@@ -2207,7 +2207,7 @@ footer {
   }
   .cont-n h2 {
     position: sticky;
-    color: #000000;
+    color: #43ba7f;
   }
 
   .sec2 {
@@ -3062,7 +3062,8 @@ footer {
     flex-direction: column;
   }
   .picture-sec2 {
-    background: url("https://templatemo.com/templates/templatemo_574_mexant/assets/images/about-left-image.jpg");
+    background: url("https://templatemo.com/templates/templatemo_574_mexant/assets/images/about-left-image.jpg")
+      center/cover no-repeat;
     width: 80%;
     margin: 0 auto;
     height: 32.625rem;
@@ -3091,7 +3092,8 @@ footer {
   }
   .cont-n h2 {
     position: sticky;
-    color: #000000;
+
+    color: #43ba7f;
   }
 
   .sec2 {
