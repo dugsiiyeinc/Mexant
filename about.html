@@ -14,6 +14,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
 
@@ -99,7 +100,7 @@
     </section>
 
     <!-- ssection 2 -->
-    <section class="sectio-one">
+    <section class="sectio-one" data-aos="fade-up">
       <div class="sec2">
         <div class="picture-sec2"></div>
         <div class="cont-n">
@@ -128,7 +129,7 @@
      </section>
 
         <!-- sec 3 -->
-        <div class="poster poster-about">
+        <div class="poster poster-about" data-aos="fade-up">
           <div class="container wrap">
             <h4>
               Business <em>Solutions</em> and <br />
@@ -141,7 +142,7 @@
           </div>
         </div>
 
-        <section class="container two-grid-section">
+        <section class="container two-grid-section" data-aos="fade-up">
         <div class="grid-section1">
       <h4>Please tell us about your idea and how you want it to be</h4>
       <p>If you need more HTML templates, you can try visiting TooCSS blog and Tooplate websites. You can get many good templates on those websites</p>
@@ -243,4 +244,8 @@ console.log('event :',event)
     });
 
 
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
 </script>
