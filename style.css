@@ -1176,6 +1176,17 @@ footer {
   margin: 0 auto;
   /* width: 99%; */
 }
+.service-footer {
+  width: 100%;
+  height: 100px;
+  background-color: #101630;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
 
 /* For mobile view */
 @media only screen and (max-width: 640px) {
