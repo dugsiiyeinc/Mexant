@@ -23,7 +23,7 @@ body {
   width: min(90%, 1120px);
   margin: 0 auto;
 }
-
+/*  the style of Header section in desktop starts here */
 header {
   top: 0;
   width: 99%;
@@ -31,11 +31,12 @@ header {
   position: sticky;
   z-index: 100;
   height: 80px;
-  /* background-color: rgb(33, 39, 65); */
-
   color: #fff;
 }
 
+/*  the style of Header section in desktop ends here*/
+
+/*  the style of Desktop menu section in desktop starts here */
 .desktop-menu {
   display: flex;
   align-items: center;
@@ -141,6 +142,10 @@ ul li:hover ul.drop-down {
   -webkit-transform: rotate(45deg);
 }
 
+/*  the style of Desktop menu section in desktop ends here */
+
+/*  the style of Hero  section in desktop starts here */
+
 .Hero {
   background: url("https://templatemo.com/templates/templatemo_574_mexant/assets/images/slide-01.jpg")
     center/cover no-repeat;
@@ -150,6 +155,9 @@ ul li:hover ul.drop-down {
   width: 99%;
 }
 
+/*  the style of Hero  section in desktop ends here */
+
+/*  the style of Hero  section in desktop starts here */
 .containers {
   display: flex;
   flex-direction: column;
