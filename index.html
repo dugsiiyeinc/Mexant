@@ -11,6 +11,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/rough-notation/0.5.1/rough-notation.cjs.js" referrerpolicy="no-referrer"></script>
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -96,19 +97,19 @@
       <!-- hero -->
     <div class="Hero">
         <div class="container containers">
-          <h2>
+          <h2 data-aos="fade-right">
             Get <em>ready</em> for your business<br />&amp; upgrade
             <em>all aspects</em>
           </h2>
-          <div class="div-dec"></div>
-          <p>
+          <div class="div-dec" data-aos="fade-right"></div>
+          <p data-aos="fade-left">
             Mexant HTML5 Template is provided for free of charge. This layout is
             based on Boostrap 5 CSS <br />
             framework. Anyone can download and edit for any professional website.
             Thank you for visiting <br />
             TemplateMo website.
           </p>
-          <div class="buttons">
+          <div class="buttons" data-aos="fade-up">
             <div class="green-button">Discover More</div>
             <div class="orange-button">Contact Us</div>
           </div>
@@ -119,7 +120,7 @@
 
     <div class="container " >
      
-        <div class="box-container" id="services" >
+        <div class="box-container" id="services" data-aos="fade-left">
         <div class="boxs">
           <div class="box1" >
             <i class="fas fa-archive"></i>
@@ -188,7 +189,7 @@
 
       
     <!-- SECTION 3 -->
-    <div class="poster">
+    <div class="poster" data-aos="fade-down">
         <div class="container wrap">
           
           <h4>
@@ -206,7 +207,7 @@
 
       <!-- SECTION 4-->
 
-    <section class="about-us" id="AboutUs">
+    <section class="about-us" id="AboutUs" data-aos="zoom-in-down">
         <div class="container">
           <h2>ABOUT US</h2>
           <h1>Know Us Better</h1>
@@ -280,7 +281,7 @@
         <!-- <div class="lady-pic"> -->
          <img
          src="	https://templatemo.com/templates/templatemo_574_mexant/assets/images/calculator-image.png"
-         alt=""
+         alt="" data-aos="zoom-in-down"
        />
         <!-- </div> -->
        <div class="content">
@@ -323,7 +324,7 @@
      </section>
 
      <!-- Section 6 -->
-     <section class="TESTIMONIALS" id="Testimonials">
+     <section class="TESTIMONIALS" id="Testimonials" data-aos="zoom-in-down">
         <div class="test-lines">
             <h2>TESTIMONIALS</h2>
             <h1>What They Say</h1>
@@ -415,4 +416,7 @@ console.log('event :',event)
 
 
 </script>
-  
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
