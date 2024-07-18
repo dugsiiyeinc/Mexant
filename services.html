@@ -8,12 +8,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 />
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/rough-notation/0.5.1/rough-notation.cjs.js" referrerpolicy="no-referrer"></script>
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    
   </head>
   <body>
 
@@ -97,7 +99,7 @@
         
       </section>
       <section class="main_service">
-        <div class="pic_1">
+        <div class="pic_1" data-aos="fade-right">
             <img src="https://templatemo.com/templates/templatemo_574_mexant/assets/images/service-image-01.jpg" alt="">
         </div>
         <div class="cont_1">
@@ -124,14 +126,14 @@
             </div>
         </div>
 
-        <div class="pic_1">
+        <div class="pic_1" data-aos="fade-left">
             <img src="https://templatemo.com/templates/templatemo_574_mexant/assets/images/service-image-02.jpg" alt="">
         </div>
 
       </section>
 
       <section class="main_service main_service2">
-        <div class="pic_1">
+        <div class="pic_1" data-aos="fade-right">
             <img src="https://templatemo.com/templates/templatemo_574_mexant/assets/images/service-image-03.jpg" alt="">
         </div>
         <div class="cont_1">
@@ -256,4 +258,8 @@ console.log('event :',event)
     });
 
 
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
 </script>
