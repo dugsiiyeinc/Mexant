@@ -11,7 +11,7 @@
 
 
 # Introduction
-This project is built Group B (Group 5) using the Templete of the Mexant HTML5. It provides a comprehensive solution for business upgrades and professional website development.
+This project is built Group B Team 5 using the Templete of the Mexant HTML5. It provides a comprehensive solution for business upgrades and professional website development.
 
 # Key Features
 - Responsive Designs: Optimized for both mobile and tablet.
