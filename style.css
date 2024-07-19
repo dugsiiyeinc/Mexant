@@ -2951,10 +2951,9 @@ color: #748192;
     color: #fff;
     background: url("	https://templatemo.com/templates/templatemo_574_mexant/assets/images/calculator-bg.jpg");
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    margin-top: 20px;
     margin: 0 auto;
     width: 100%;
-    height: 50vh;
+    height: 60vh;
   }
 
   .content {
@@ -3237,8 +3236,8 @@ color: #748192;
   flex-direction: column;
   gap: 15px;
   padding: 20px;
-  align-items: self-start;
-  justify-content: left;
+  align-items: center;
+  justify-content: center;
 }
 .footer-right span{
 
