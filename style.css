@@ -1168,7 +1168,7 @@ button:hover {
 
 
 
-
+/* footer section  */
 .footer-section{
   background-color: #101630;
   color: white;
@@ -2372,29 +2372,96 @@ color: #748192;
     margin-bottom: 20px;
   }
 
-  footer {
-    width: 100%;
-    height: 100px;
-    background-color: #101630;
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    /* width: 100%; */
-  }
-  .service-footer {
-    width: 100%;
-    height: 100px;
-    background-color: #101630;
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-  }
+  
+/* footer section  */
+.footer-section{
+  background-color: #101630;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  height: 60vh;
+}
+.footer-left{
+  display: flex;
+  flex-direction: column;
+ align-items: self-start;
+ justify-content: left;
+ gap: 20px;
+
+}
+
+.footer-copyright{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: self-start;
+  justify-content: left;
+  
+}
+
+.footer-copyright p{
+  text-align: justify;
+  /* padding-right: 20px; */
+  color: #748192;
+}
+
+.footer-copyright ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.footer-copyright ul li{
+  list-style: none;
+}
+
+
+.footer-copyright ul li a{
+  font-size: 12px;
+  text-decoration: none;
+  color: #748192;
+}
+
+.footer-copyright ul li a:hover{
+  text-decoration: none;
+  color: #e64a19;
+}
+
+
+.footer-right{
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.footer-right span{
+
+color: #748192;
+}
+.footer-right ul {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.footer-right ul li {
+  list-style: none;
+ 
+}
+
+.footer-right ul li a{
+  text-decoration: none;
+  color: #748192;
+}
+
+.footer-right ul li a:hover{
+  color: #e64a19;
+}
 }
 
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
@@ -3104,30 +3171,98 @@ color: #748192;
     gap: 20px;
     padding: 20px;
   }
+  
+/* footer section  */
+.footer-section{
+  background-color: #101630;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 40vh;
+}
+.footer-left{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 20px;
 
-  footer {
-    width: 100%;
-    height: 100px;
-    background-color: #101630;
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    /* width: 100%; */
-  }
-  .service-footer {
-    width: 100%;
-    height: 100px;
-    background-color: #101630;
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-  }
+}
+
+.footer-copyright{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: self-start;
+  justify-content: left;
+  
+}
+
+.footer-copyright p{
+  text-align: justify;
+  /* padding-right: 20px; */
+  color: #748192;
+}
+
+.footer-copyright ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.footer-copyright ul li{
+  list-style: none;
+}
+
+
+.footer-copyright ul li a{
+  font-size: 12px;
+  text-decoration: none;
+  color: #748192;
+}
+
+.footer-copyright ul li a:hover{
+  text-decoration: none;
+  color: #e64a19;
+}
+
+
+.footer-right{
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  align-items: self-start;
+  justify-content: left;
+}
+.footer-right span{
+
+color: #748192;
+}
+.footer-right ul {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.footer-right ul li {
+  list-style: none;
+ 
+}
+
+.footer-right ul li a{
+  text-decoration: none;
+  color: #748192;
+}
+
+.footer-right ul li a:hover{
+  color: #e64a19;
+}
 
   /* about page responsive */
   .sectio-one {
