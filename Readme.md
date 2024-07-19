@@ -1,9 +1,9 @@
 
 
-# Group B (Group 5) Project
-- Welcome to the repository for the Group B (Group 5) Project.
+# Group B Team 5 mexant templete Project
+- Welcome to the repository for the Group B Team 5 Project.
 
-# Team members
+# Team members and their github links
 
 1. Mohamed Bashir Ali (team leader) (https://github.com/MBASHIR08)
 2. Abdullahi Abdirashid(https://github.com/AbdulahiAwil)
