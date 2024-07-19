@@ -2381,7 +2381,7 @@ color: #748192;
   flex-direction: column;
   gap: 10px;
   width: 100%;
-  height: 60vh;
+  height: 68vh;
 }
 .footer-left{
   display: flex;
@@ -2419,7 +2419,7 @@ color: #748192;
 
 
 .footer-copyright ul li a{
-  font-size: 12px;
+  font-size: 11px;
   text-decoration: none;
   color: #748192;
 }
