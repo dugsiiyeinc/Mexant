@@ -2064,8 +2064,7 @@ color: #748192;
   }
 
   .pic_1 img {
-    width: 300px;
-    height: 250px;
+    max-width: 100%;
     border-radius: 0.625rem;
   }
 
@@ -2206,11 +2205,9 @@ color: #748192;
   }
   .conten-image img {
     border-radius: 8px;
-    width: 300px;
-    height: 300px;
+    max-width: 100%;
     position: absolute;
     top: 0;
-    left: 25px;
     margin: 0 auto;
   }
   .heard-conten {
@@ -3549,8 +3546,8 @@ color: #748192;
   }
   .conten-image img {
     border-radius: 8px;
-    width: 300px;
-    height: 300px;
+    width: 100%;
+   
     position: absolute;
     top: 0;
   }
