@@ -1662,25 +1662,27 @@ color: #748192;
   .financial-plan {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 20px;
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
     background: url("	https://templatemo.com/templates/templatemo_574_mexant/assets/images/calculator-bg.jpg");
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    margin-top: 20px;
-    height: 100vh;
+    max-height: 100%;
     margin: 0 auto;
     width: 100%;
+   
   }
 
   .content {
-    max-width: 100%;
-    height: 60vh;
+    max-width: 300px;
+
+    max-height: 100%;
   }
 
   h2 {
     color: #ff5119;
-    margin-top: 30px;
+ 
     font-size: 1rem;
   }
 
@@ -1690,14 +1692,17 @@ color: #748192;
   }
 
   form {
+
     width: 100%;
     height: 50vh;
-    padding-top: 10px;
+  
   }
 
   #financial-plan-form {
+   
     width: 100%;
-    height: 65vh;
+    height: 100%;
+   box-sizing: border-box;
   }
 
   .name_email {
