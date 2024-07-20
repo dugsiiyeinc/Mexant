@@ -2155,7 +2155,7 @@ color: #748192;
   .investment_content {
     position: relative;
     width: 90%;
-    height: 130vh;
+    height: 100vh;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
