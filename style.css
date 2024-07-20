@@ -225,6 +225,18 @@ ul li:hover ul.drop-down {
   transition: all 0.3s;
 }
 
+
+.green-button a{
+  color: white;
+  text-decoration: none;
+}
+
+.orange-button a{
+  color: white;
+  text-decoration: none;
+}
+
+
 /* Section two */
 
 .box-container {
@@ -2196,6 +2208,8 @@ color: #748192;
 
     margin-bottom: 10px;
   }
+
+
 
   .conten-image {
     top: 0;
