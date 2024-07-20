@@ -119,7 +119,7 @@ header {
 .containers {
   display: flex;
   flex-direction: column;
-  padding-top: 5%;
+  padding-top: 3%;
   margin: 0 auto;
   width: 100%;
   padding-left: 5%;
