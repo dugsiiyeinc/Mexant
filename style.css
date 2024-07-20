@@ -2155,7 +2155,7 @@ color: #748192;
   .investment_content {
  
     width: 90%;
-    height: 90vh;
+    height: 110vh;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -2164,18 +2164,14 @@ color: #748192;
 
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 margin-top: 30px;
-    margin-bottom: 10px;
     padding-top: 0;
+
   }
 
 
 
   .conten-image {
-    padding: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
+   
     border-radius: 8px;
    
   }
@@ -2183,18 +2179,17 @@ margin-top: 30px;
     border-radius: 8px;
     max-width: 100%;
     max-height: 250px;
-    top: 0;
-    margin: 0 auto;
   }
   .heard-conten {
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
-    height: 100%;
+height: 100%;
+  
   }
   .heard-conten h4 {
+    margin-top: 0;
     font-size: 1.5rem;
     color: #313546;
     margin-bottom: 1.5625rem;
