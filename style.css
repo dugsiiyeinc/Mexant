@@ -2463,16 +2463,20 @@ color: #748192;
   .Hero {
     background: url("https://templatemo.com/templates/templatemo_574_mexant/assets/images/slide-01.jpg")
       center/cover no-repeat;
-    height: 50vh;
+    height: 93vh;
     margin: 0px auto;
     margin-top: 0px;
     width: 100%;
   }
 
+  .about-hero{
+    height: 50vh;
+  }
+
   .containers {
     display: flex;
     flex-direction: column;
-    padding-top: 5%;
+    padding-top: 10%;
     margin: 0 auto;
     width: 100%;
     padding-left: 5%;
@@ -2483,7 +2487,7 @@ color: #748192;
     font-weight: 700;
     font-size: 56px;
     letter-spacing: 1px;
-    line-height: 70px;
+    line-height: 80px;
     color: #fff;
     text-align: start;
     outline-color: rgb(255, 81, 26);
